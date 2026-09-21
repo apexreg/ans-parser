@@ -13,4 +13,5 @@ dependencies = []
 dev = ["pytest"]
 
 [tool.setuptools.packages.find]
+where = ["."]
 include = ["apexreg_ans_parser*"]
