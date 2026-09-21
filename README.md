@@ -22,11 +22,11 @@ pip install apexreg-ans-parser
 from apexreg_ans_parser import parse_agent_uri
 
 # Example 1: simple agent address
-parsed = parse_agent_uri("agent://billing.apexre.org/cardiology")
+parsed = parse_agent_uri("agent://billing.apexreg.org/cardiology")
 print(parsed)
 # {
 #   "scheme": "agent",
-#   "domain": "billing.apexre.org",
+#   "domain": "billing.apexreg.org",
 #   "capability_path": "cardiology",
 #   "query_params": {}
 # }
